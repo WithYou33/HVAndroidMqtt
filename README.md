@@ -1,11 +1,11 @@
 # HVandroidMQTT
 高版本android无法使用mqtt问题解决
-1.添加jar包
-2.  build.gradle：app下导入依赖
-implementation 'com.blankj:utilcodex:1.31.0'
-api 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0'
-3.AndroidManifest.xml 的 application 标签下加入
-<service android:name="com.itfitness.mqttlibrary.MqttService"/>
+# 1.添加jar包
+# 2.  build.gradle：app下导入依赖
+        implementation 'com.blankj:utilcodex:1.31.0'
+        api 'org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.0'
+# 3.AndroidManifest.xml 的 application 标签下加入
+        <service android:name="com.itfitness.mqttlibrary.MqttService"/>
 
 ## 使用事例
         val server = "tcp://ip:port" //服务端地址

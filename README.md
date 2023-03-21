@@ -1,0 +1,2 @@
+# HVandroidMQTT
+高版本android无法使用mqtt问题解决
